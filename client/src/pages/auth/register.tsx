@@ -8,11 +8,13 @@ export default function Register() {
   async function registerUser(e: any) {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/api/hello", {
+      .post("http://localhost:5000/api/register", {
         email,
         password,
       })
-      .then((res) => alert(`submitted`))
+      .then((res) => {
+        console.log(res.data);
+      })
       .catch((err) => console.log(err));
   }
 
@@ -25,7 +27,7 @@ export default function Register() {
             <div className="w-full my-4">
               <input
                 className="w-full p-2 border focus:outline-none"
-                type="text"
+                type="email"
                 name=""
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
