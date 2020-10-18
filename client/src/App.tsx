@@ -25,7 +25,7 @@ function App() {
         <Route path="/register" exact>
           <Register />
         </Route>
-        <Route path="*" component={() => <My404Page />} exact></Route>
+        <Route path="*" component={My404Page} exact></Route>
       </Switch>
     </Router>
   );

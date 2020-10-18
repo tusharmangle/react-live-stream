@@ -6,12 +6,14 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/axios": "^0.14.0",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "@types/react-router-dom": "^5.1.6",
     "autoprefixer": "^10.0.1",
+    "axios": "^0.20.0",
     "node-sass": "^4.14.1",
     "postcss-cli": "^8.1.0",
     "react": "^16.14.0",
@@ -21,7 +23,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "build:style":"tailwind build src/styles/index.css -o src/styles/tailwind.css",
+    "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

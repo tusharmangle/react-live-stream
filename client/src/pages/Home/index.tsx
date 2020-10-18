@@ -15,7 +15,7 @@ export default function Home() {
           </Link>
           <Link
             to="/register"
-            className="bg-red-600 mr-5 px-5 py-2 text-white uppercase font-semibold"
+            className="bg-purple-600 mr-5 px-5 py-2 text-white uppercase font-semibold"
           >
             Signup
           </Link>
